@@ -9,12 +9,12 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #0a0a0a;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
   color: white;
   text-align: center;
 }
 
-/* CONTEÚDO CENTRAL */
+/* CONTEÚDO */
 .container {
   padding: 60px 20px;
 }
@@ -24,9 +24,18 @@ h1 {
 }
 
 p {
-  color: #ccc;
+  color: #cbd5f5;
   max-width: 400px;
   margin: 15px auto;
+}
+
+/* SUPORTE */
+.suporte {
+  margin-top: 40px;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 12px;
+  display: inline-block;
 }
 
 /* BOTÃO FLUTUANTE */
@@ -34,9 +43,9 @@ p {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  background: #25d366;
+  background: #3b82f6;
   color: white;
-  padding: 15px 20px;
+  padding: 15px 22px;
   border-radius: 50px;
   font-weight: bold;
   text-decoration: none;
@@ -47,15 +56,6 @@ p {
 .botao-flutuante:hover {
   transform: scale(1.05);
 }
-
-/* CAIXA DE SUPORTE */
-.suporte {
-  margin-top: 40px;
-  padding: 20px;
-  background: #1a1a1a;
-  border-radius: 10px;
-  display: inline-block;
-}
 </style>
 </head>
 
@@ -63,7 +63,7 @@ p {
 
 <div class="container">
   <h1>🔐 Painel Administrativo bot-barbearia-2</h1>
-  <p>Acesse o sistema do bot da barbearia para gerenciar atendimentos, agendamentos e automações.</p>
+  <p>Acesse o sistema do bot para gerenciar atendimentos, clientes e automações.</p>
 
   <div class="suporte">
     <h3>Suporte</h3>
